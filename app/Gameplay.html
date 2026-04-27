@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link rel="stylesheet" href="gameplaystyle.css">
+    <script src="gameplayscript.js" defer></script>
+</head>
+<body>
+    <div class="headerTag">
+        <h1>Rock Paper Scissor Game</h1>
+    </div>
+    <div class="scoreContainer">
+        <div class="valuesame">
+            <div class="score"><p>Player score</p></div>
+            <div class="score"><p class="scores" id="userScore">0</p></div>
+        </div>
+
+        <div class="valuesame">
+            <div class="score"><p>Computer Score</p></div>
+            <div class="score"><p class="scores" id="computerScore">0</p></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text">
+            <div class="same"><span>Player</span></div>
+            <div class="same"><span>Computer</span></div>
+        </div>
+        <div class="anshead">
+            <div class="ansbox" id="rightbox"></div>
+            <span>VS</span>
+            <div class="ansbox" id="leftbox"></div>
+        </div>
+
+        <div class="selectDiv">
+            <ul>
+                <li id="rock" class="samevalue">Rock</li>
+                <li id="paper" class="samevalue">Paper</li>
+                <li id="scissor" class="samevalue">Scissor</li>
+            </ul>
+        </div>
+
+        <div class="demoContainer">
+            <p id="demo"></p>
+        </div>
+
+        <div class="buttonContainer">
+           <p class="buttons" id="resetButton">Reset</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

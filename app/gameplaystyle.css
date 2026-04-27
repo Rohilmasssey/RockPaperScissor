@@ -1,0 +1,179 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+body{
+    background-color: rgb(5, 5, 18);
+    color: green; 
+}
+
+.headerTag{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px; 
+    box-sizing: border-box;
+    color: green;
+    background-color: rgb(22, 21, 21);
+}
+
+.scoreContainer{
+    min-width: 100%; 
+    max-width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.scoreContainer .valuesame{
+    padding: 10px; 
+    border: 1px solid; 
+    box-sizing: border-box;
+    border-radius: 12px;
+   
+}
+
+.valuesame .score{
+    box-sizing: border-box;
+    font-size: 1.5em; 
+    border: 1px solid; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    padding: 5px; 
+}
+
+.scores{
+    color: white;
+}
+.container{
+    min-width: 80%; 
+    max-width: 80%; 
+    border: 1px solid;
+    margin: auto; 
+    margin-top: 20px; 
+    border: 1px solid; 
+    padding: 20px; 
+    border-radius: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.anshead{
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.ansbox{
+    min-width: 40%; 
+    max-width: 80%; 
+    height: 50px; 
+    border: 1px solid;
+    padding: 2px; 
+    box-sizing: border-box; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+span{
+    font-size: 1.6em;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; 
+}
+
+.same{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-width: 40%; 
+    max-width: 80%; 
+    height: 50px; 
+    padding: 2px; 
+    box-sizing: border-box;
+    font-size: 1em; 
+}
+
+
+.selectDiv ul{
+    display: flex; 
+    list-style-type: none;
+    margin-top: 50px; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.selectDiv ul li{
+    min-width: 20%; 
+    max-width: 20%; 
+    /* border: 1px solid;  */
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 4vw;
+    border-radius: 25px; 
+    color: white;
+    padding: 2px;
+    background-color: rgba(41, 24, 115, 0.528);
+    box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.471);
+}
+
+.selectDiv ul li:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 6px 5px rgba(255, 255, 255, 0.439);
+}
+
+.demoContainer{
+    margin-top: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#demo{
+    text-align: center;
+    min-width: 30%; 
+    max-width: 30%; 
+    border: 1px solid;
+    height: 50px; 
+    font-size: 1.5em;
+    border-radius: 25px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer{
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttonContainer .buttons{
+    min-width: 20%;
+    max-width: 20%;
+    height: 40px; 
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(41, 24, 115, 0.528);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonContainer .buttons:active{
+    transform: scale(0.9);
+    box-shadow: 0 0 6px 5px rgba(255, 255, 255, 0.439);
+
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    background-color: rgb(5, 5, 18);
+    color: green; 
+}
+.header2{
+    background-color: Green;
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+    border-bottom-left-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
+}
+
+.mainContainer{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.container{
+    min-width: 70%; 
+    max-width: 70%; 
+    border: 1px solid; 
+    /* margin: auto;  */
+    margin-top: 120px; 
+    padding-bottom: 20px;
+    padding: 20px; 
+}
+
+.header1{
+    text-align: center;
+}
+
+.intro{
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.playExit{
+    margin: 5px; 
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 1.2em; 
+}
+
+.button1{
+    text-align: center;
+    margin-top: 40px; 
+}
+
+
+
+.button2{
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.button1 .playButton{
+    min-width: 130px;
+    max-width: 200px; 
+    height: 50px; 
+    border: 1px solid; 
+    font-size: 2rem;
+    border-radius: 25px;
+}
