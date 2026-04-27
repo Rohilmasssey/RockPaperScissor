@@ -5,8 +5,8 @@ let computerScore = 0;
 
 let tag = document.querySelectorAll(".samevalue"); 
 
-const looseSound = new Audio("C:/Users/Rohil/RockPaperScissorGame/assets/looseSound.aac"); 
-const winSound = new Audio("C:/Users/Rohil/RockPaperScissorGame/assets/winSound.aac")
+const looseSound = new Audio("sounds/C:/Users/Rohil/RockPaperScissorGame/assets/looseSound.aac"); 
+const winSound = new Audio("sounds/C:/Users/Rohil/RockPaperScissorGame/assets/winSound.aac")
 tag.forEach((button) => {
     button.addEventListener("click", (e) => {
     let val; 
